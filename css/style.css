@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background: burlywood;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.card-container h2 {
+    text-align: center;
+    padding: 5%;
+    font-size: 1.25em;
+}
+
+.card-container {
+    background: chocolate;
+    margin: 5%;
+    padding: 20px;
+}
+
+.item {
+    margin-bottom: 10%;
+    background: cornsilk;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.item img {
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+}
+
+.delete-btn,
+.like-btn {
+    display: inline-block;
+    cursor: grab;
+}
